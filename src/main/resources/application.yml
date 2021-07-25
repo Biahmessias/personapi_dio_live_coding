@@ -1,0 +1,26 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: "jdbc:postgresql://localhost:5432/personapi?createDatabaseIfNotExist=true"
+    username: banco
+    password: swadm
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        order_updates: true
+        jdbc:
+          batch_size: 1000
+      show-sql: true
+    generate-ddl: true
+    database-platform: org.hibernate.dialect.PostgreSQL95Dialect
+
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: DEBUG

@@ -1,0 +1,11 @@
+version: "3"
+services:
+  postgres:
+    container_name: personapi
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: banco
+      POSTGRES_PASSWORD: swadm
+      POSTGRES_DB: personapi
+    ports:
+      - "5432:5432"
