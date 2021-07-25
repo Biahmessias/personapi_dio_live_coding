@@ -37,4 +37,4 @@ Site oficial do GitHub
 Documentação oficial do Lombok
 Documentação oficial do Map Struct
 Referência para o padrão arquitetural REST
-Neste link, seguem os slides apresentados como o roteiro utilizado para o desenvolviemnto do projeto da nossa sessão.
+Neste link, seguem os slides apresentados como o roteiro utilizado para o desenvolvimento do projeto da nossa sessão.
